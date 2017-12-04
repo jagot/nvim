@@ -1,0 +1,16 @@
+#+TITLE: Neovim configuration
+#+AUTHOR: Stefanos Carlström
+#+EMAIL: stefanos.carlstrom@gmail.com
+
+Neovim configuration, just for fun. Depends on [[https://github.com/junegunn/vim-plug][vim-plug]] to install
+plugins.
+
+* Installation
+  #+BEGIN_SRC sh
+    homesick clone jagot/nvim
+    homesick rc nvim # To install vim-plug automatically
+    homesick link nvim
+  #+END_SRC
+
+  Inside Neovim, issue =:PlugInstall=.
+
