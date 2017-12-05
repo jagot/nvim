@@ -8,7 +8,6 @@ plugins.
 * Installation
   #+BEGIN_SRC sh
     homesick clone jagot/nvim
-    homesick rc nvim # To install vim-plug automatically
     homesick link nvim
   #+END_SRC
 
